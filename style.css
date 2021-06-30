@@ -1,0 +1,151 @@
+.navbar {
+    background-color: #FFFFFF;
+}
+
+.titleimg {
+    padding-left: 3rem;
+    text-align: center;
+    margin-bottom: .3rem;
+    margin-left: 10rem;;
+}
+
+.title {
+    color: #006AFF;
+    padding-left: 1rem;
+    padding-right: 15rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.d-flex {
+    background-image: url(landingphoto.jpg);
+    background-size: cover;
+    padding: 15rem;
+  
+   
+}
+
+
+.searchbox {
+    border: none;
+    background-color: #F6F6FA;
+    padding: 10px 5px 10px 5px;
+
+}
+
+.btnglass {
+    background-image: url(searchicon.png);
+    background-size: cover;
+    padding: 1rem;
+    margin-left: -5rem;
+    border: none;
+    
+}
+
+.container-fluidcard {
+    padding: 2rem 5rem 6rem 5rem;
+    background-size: cover;
+    background-color: #F9F9FB;
+}
+
+.card {
+    text-align: center;
+}
+
+.cardtitle{
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.btn-group {
+    width: 23%;
+    padding: 2.5rem;
+   
+}
+
+.btn-secondary {
+    background-color: #FFFFFF;
+    color: black;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.container-one {
+    text-align: center;
+    padding: 1rem;
+}
+
+footer a {
+    padding: .5rem;
+    text-decoration: none;
+    color: black;
+}
+
+.link {
+    text-decoration: none;
+    text-align: center;
+}
+
+.container-two {
+    text-align: center;
+    padding: 1rem;
+}
+
+.fine {
+    text-align: center;
+    margin: 1rem 15rem 1rem 15rem;
+    font-size: 12px;
+    line-height: 1.5rem;
+}
+
+
+.footerimg {
+    padding-top: 4rem;
+}
+
+
+
+  
+  @media screen and (min-width: 400px) {
+    .footerimg {
+        background-image: url(footer.png);
+        background-size: cover;
+        width: 100vw;
+    }
+    .fine {
+        padding: 0;
+        margin: 0;
+    }
+    .btn-group {
+        
+        padding: 0;
+       
+    }
+
+  }
+  
+  @media screen and (min-width: 800px) {
+
+h4 .cardtitle {
+    position: absolute;
+    display: inline;
+    
+}
+
+    .formbox {
+        width: 700px;
+    }
+
+    .navbar {
+        background-image: url(zillowlogo.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: 50%;
+    }
+
+    .footerimg {
+        background-image: url(footer.png);
+        background-size: cover;
+        width: 100vw;
+    }
+  }
